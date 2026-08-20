@@ -28,3 +28,4 @@ prompt2 = template2.invoke({'text':result1.content})
 result2 = model.invoke(prompt2)
 
 print(result2.content)
+
